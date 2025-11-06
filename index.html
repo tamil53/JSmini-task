@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Travel Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">SMART TRAVEL TECH</div>
+            <button class="toggle-btn" id="toggleBtn">☰</button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#services">Services</a>
+                <a href="#clients">Clients</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-banner">
+            <div class="hero">
+                <div class="card1 p-3">
+                    <h2>FUTURE OF TRAVEL AUTOMATION</h2>
+                    <p style="color: rgb(7, 7, 7);">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis atque excepturi
+                        adipisci, dolore eos ullam quibusdam
+                        corrupti aut culpa vitae consectetur minus modi, numquam et. Dolorum ducimus unde alias.</p>
+                    <a href="#" class="btn btn-primary">Learn More</a>
+
+                </div>
+            </div>
+        </section>
+
+<center>
+  <hr>
+  <h1>About Us</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat sit qui officia impedit aliquid iusto itaque sapiente accusamus? Quisquam, vitae nulla? Optio voluptatibus, necessitatibus temporibus nam vero quia cumque vitae? Necessitatibus porro itaque est ipsam veritatis placeat cum distinctio vel unde deserunt nobis et autem, dolores consectetur iure cumque cupiditate consequatur qui eaque at sunt. Magnam, culpa. Perferendis tempora in ducimus assumenda. Distinctio, quibusdam! Dolorum harum fugiat pariatur tempora, eaque non. Consequatur eligendi modi minima aperiam, nobis ea? Blanditiis magni odit quod unde, quidem fugiat voluptatem neque id quaerat deserunt nam atque. Aliquam incidunt nostrum autem velit eligendi, molestiae excepturi.</p>
+<hr>
+</center>
+
+
+
+<h1 style="text-align: center;margin-top: 50px;">Services</h1>
+
+<div class="services-container">
+  <div class="service-box1">
+    <h3>UI/UX DESIGN</h3>
+    <ul class="service-features">
+      <li>User Interface</li>
+      <li>User Experience</li>
+      <li>Visual Design</li>
+      
+    </ul>
+  </div>
+
+  <div class="service-box2">
+    <h3>SOFTWARE DEVELOPMENT</h3>
+    <ul class="service-features">
+      <li>Frontend</li>
+      <li>Backend</li>
+      <li>Database </li>
+      <li>Softeare design</li>
+    </ul>
+  </div>
+
+  <div class="service-box3">
+    <h3>TRAVEL AUTOMATION</h3>
+    <ul class="service-features">
+      <li>Trip Planning</li>
+      <li>AI&Chatbot</li>
+      <li>Travel Expense</li>
+    </ul>
+  </div>
+</div>
+<center>
+  
+<div id="gallery">
+  <h1 style="margin-top: 50px;">Places</h1>
+  <img id="mainImage" src="img3.jpeg" alt="Main Image">
+</div>
+</center>
+
+<div id="thumbnails">
+  <img class="thumbnail" src="img4.jpeg" alt="Image 1">
+  <img class="thumbnail" src="img5.jpeg" alt="Image 2">
+  <img class="thumbnail" src="img6.jpeg" alt="Image 3">
+  <img class="thumbnail" src="img7.jpeg" alt="Image 4">
+  <img class="thumbnail" src="img8.jpeg" alt="Image 5">
+</div>
+</section>
+
+ <footer>
+
+        <div>
+            <p style="text-align: center;margin-top: 50px;">&copy; Travel Tech 2025</p>
+        </div>
+               <div class="icon">
+        <img src="img.png" alt="">
+        <img src="img1.png" alt="">
+        <img src="img2.png" alt="">
+        <img src="img3.png" alt="">
+        </div>
+        <div class="para">
+            <p>Some of the pages on my travel blog contain affiliate links. Whenever you buy something through one of these links, I get a small commission at no extra cost to you. As an affiliate, I only recommend products and services that I feel are high quality and helpful to my readers. Thanks for your support.</p>
+        </div>
+    </footer>
+    
+
+<script>
+  const thumbnails = document.querySelectorAll('.thumbnail');
+
+  thumbnails.forEach(thumbnail => {
+    thumbnail.addEventListener('click', function() {
+      document.getElementById('mainImage').src = this.src;
+    });
+  });
+
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
